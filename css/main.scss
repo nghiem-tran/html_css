@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+$grid-columns: 12 !default;
+$theme-colors: (
+        "primary": #023E87,
+        "warning": #e3401f
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1500px
+);
+
+$color-white: #fff;
+$color-black: #333;
+/*$color-primary: #2b3078;*/
+$color-primary: #023E87;
+$color-highlight: #e3401f;
+$color-highlight-inverse: #ff6a48;
+// $color-highlight-inverse: #ffbd23;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1500px;
+
+$input-bg: #f2f6fa;
+// $input-disabled-bg:                     $gray-200 !default;
+
+$input-color: $color-black;
+$input-border-color: #f2f6fa;
+// $input-border-width:                    $input-btn-border-width !default;
+// $input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
+
+$input-border-radius: 8px;
+// $input-border-radius-lg:                $border-radius-lg !default;
+// $input-border-radius-sm:                $border-radius-sm !default;
+
+// $input-focus-bg:                        $input-bg !default;
+// $input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+// $input-focus-color:                     $input-color !default;
+// $input-focus-width:                     $input-btn-focus-width !default;
+// $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
+
+$input-placeholder-color: #b2b2b2;
+$input-plaintext-color: $color-black;
+
+// $input-height-border:                   $input-border-width * 2 !default;
+
+// $input-height-inner:                    add($input-line-height * 1em, $input-padding-y * 2) !default;
+// $input-height-inner-half:               add($input-line-height * .5em, $input-padding-y) !default;
+// $input-height-inner-quarter:            add($input-line-height * .25em, $input-padding-y / 2) !default;
+
+// $input-height:                          add($input-line-height * 1em, add($input-padding-y * 2, $input-height-border, false)) !default;
+// $input-height-sm:                       add($input-line-height-sm * 1em, add($input-padding-y-sm * 2, $input-height-border, false)) !default;
+// $input-height-lg:
+
+$form-group-margin-bottom: 2rem;
+
+
+$custom-file-text: (
+        en: "Attach file"
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/career";
+@import "pages/blog";
+@import "pages/service-custom-software-development";
+@import "pages/service-maintenance-and-support";
+@import "pages/cloud-migration-and-devops";
+@import "pages/service-technology-solution-consulting";
+@import "pages/case-studies";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background-header {
+  background-image: url('../image/banner.png');
+  background-size: cover, cover;
+  background-position: center, center;
+  overflow: hidden;
+  background-repeat: no-repeat, no-repeat;
+  min-height: 798px;
+  margin-top: -45px;
+}
+
+
+.navbar-nav {
+  margin-left: 102px;
+
+  li.nav-item {
+    margin-right: 19px !important;
+    font-weight: 600;
+
+    a .nav-link {
+      color: #ABADAE;
+      size: 16px;
+      font-weight: 600;
+      border: #707070;
+    }
+
+    a.active-link {
+      color: #0A4065;
+      size: 16px;
+      font-weight: bold;
+      border: #707070;
+    }
+  }
+}
+
+.line-white {
+  margin-top: 170px;
+}
+
+.navbar {
+  margin-top: 57px;
+}
+
+.text-title {
+  font-size: 52px;
+  font-weight: 500;
+  color: #028727;
+  line-height: 65px;
+}
+
+.text-description {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e7e6e;
+  line-height: 26px;
+  margin-top: 45px;
+}
+
+.lock-btn {
+  display: flex;
+  align-items: baseline;
+  margin-top: 58px;
+}
+
+.btn-order {
+  box-shadow: 0 8px 16px 0 #f7b9a9, 0 6px 20px 0 #f6d3c6;
+  width: 204px;
+  height: 70px;
+  background-color: #f98169;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 1;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #d36a6a;
+    color: #FFFFFF;
+  }
+}
+
+.watch-story {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #ABADAE;
+  size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-play {
+  border-radius: 50%;
+  box-shadow: 0 8px 10px 0 #a77e74, 0 6px 20px 0 #a77867;
+  width: 62px;
+  height: 60px;
+  background-color: #f98169;
+  font-size: 18px;
+  border: none;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #D36A6A;
+    color: #FFFFFF
+  }
+}
+
+.section {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	.section-header {
+		position: relative;
+		margin-bottom: 3rem;
+		.section-title {
+			font-size: 3rem;
+			color: rgba($color-black, 0.1);
+			text-align: center;
+			font-weight: 700;
+			@media (min-width: 768px) {
+				font-size: 6rem;
+			}
+			@media (min-width: $breakpoint-xxl) {
+				font-size: 8rem;
+				line-height: 1;
+			}
+		}
+		.section-subtitle {
+			font-size: 1.125rem;
+			font-weight: 700;
+			letter-spacing: 2px;
+			color: $color-black;
+			text-align: center;
+			/*margin-top: -50px;*/
+			margin-top: -1.5rem;
+			left: 0;
+			right: 0;
+			text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 10px rgba(255,255,255,0);
+			@media (min-width: 768px) {
+				font-size: 1.5rem;
+				margin-top: -3rem;
+			}
+			@media (min-width: $breakpoint-xxl) {
+				font-size: 1.625rem;
+				margin-top: -4rem;
+			}
+		}
+	}
+	.section-description {
+		text-align: center;
+		@media (min-width: $breakpoint-xxl) {
+			font-size: 1.125rem;
+		}
+	}
+}
+
+
+// .logo-victorya {
+//   color: #452268;
+//   font-size: 36px;
+// }
+
