@@ -399,6 +399,16 @@ box-shadow: 0 8px 16px 0 #F4F7FA, 0 6px 20px #FFFFFF;
     .text-subscribe{
       margin-right: 20px;
     }}
+.footer-dis{
+  padding-top: 10px;
+  font-size: 25px;
+  letter-spacing: 15px;
+}
+.footer-cap{
+  margin-top: 100px;
+  font-family: Regular;
+  color: #ABADAE;
+}
 /* .logo-victorya {
   color: #452268;
   font-size: 36px; } */
