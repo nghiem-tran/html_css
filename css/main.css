@@ -103,24 +103,25 @@ p {
   padding-bottom: 4rem; }
   .section .section-header {
     position: relative;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+	background-color:silver;}
     .section .section-header .section-title {
-      font-size: 3rem;
+      font-size: 40px;
       color: black;
       text-align: center;
       font-weight: 700; }
       @media (min-width: 768px) {
         .section .section-header .section-title {
-          font-size: 65px; } }
+          font-size: 50px; } }
       @media (min-width: 1500px) {
         .section .section-header .section-title {
-          font-size: 80px;
+          font-size: 55px;
           line-height: 1; } }
     .section .section-header .section-subtitle {
       font-size: 12px;
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 2px;
-      color: #333;
+      color: silver;
       text-align: center;
       /*margin-top: -50px;*/
       margin-top: 10px;
@@ -129,12 +130,12 @@ p {
       text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 10px rgba(255, 255, 255, 0); }
       @media (min-width: 768px) {
         .section .section-header .section-subtitle {
-          font-size: 25px;
-          margin-top: -15px; } }
+          font-size: 20px;
+          margin-top: 25px; } }
       @media (min-width: 1500px) {
         .section .section-header .section-subtitle {
           font-size: 25px;
-          margin-top: -10px; } }
+          margin-top: 30px; } }
   .section .section-description {
     text-align: center; }
     @media (min-width: 1500px) {
@@ -271,7 +272,7 @@ p {
   font-size: 18px;
   font-weight: bold;
   border: none;
-  border-radius: 1;
+  border-radius: 0px;
   color: #FFFFFF; }
   .btn-order:hover {
     background-color: #d36a6a;
@@ -299,13 +300,22 @@ p {
     color: #FFFFFF; }
 .price {
   color: red;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: initial;
 }
 .border-img {
   border-radius: 20px;
 }
 .food-detail{
   margin-bottom: 10px !important;
-  line-height: 0;
+  line-height: 20px;
+  color: silver;
+  font-weight: 300;
+}
+
+.list-item{
+ diplay
 }
 
 .background-footer{
@@ -326,26 +336,25 @@ p {
     .background-footer{
       min-height: 560px;}
 
-.caption-mail{
+.section-header-ing{
   text-align: center;
 }
 
-.caption-mail-des{
+.section-header-text{
   font-size: 16px;
   font-family: Georgia;
   margin-bottom: 5px;
-
 }
   @media (min-width: 567px) {
-    .caption-mail-des{
+    .section-header-text{
       font-size: 25px;
       margin-bottom: 40px; }
   @media (min-width: 768px) {
-    .caption-mail-des{
+    .section-header-text{
       font-size: 33px;
       margin-bottom: 40px;}
   @media (min-width: 992px) {
-    .caption-mail-des{
+    .section-header-text{
       font-size: 40px;
       margin-bottom: 40px;}
 
@@ -409,8 +418,202 @@ box-shadow: 0 8px 16px 0 #F4F7FA, 0 6px 20px #FFFFFF;
   font-family: Regular;
   color: #ABADAE;
 }
-/* .logo-victorya {
-  color: #452268;
-  font-size: 36px; } */
+.title-img{
+	margin-top : -125px;
+	font-size :30px;
+	font-family: Regular;
+	font-weight: 700;
+	color : white;
+	margin-bottom: 5px;
+	text-align: left;
+}
 
-/*# sourceMappingURL=main.css.map */
+@media (min-width: 567px) {
+    .title-img{
+	margin-top : -125px;
+	font-size :30px;
+}}
+  @media (min-width: 1200px) {
+    .title-img{
+	margin-top : -125px;
+	font-size :30px;
+}}
+
+.lock-title-img{
+	margin-left: 30px;
+}
+
+
+.dis-img{
+	margin-top : -10px;
+	font-size :14px;
+	color : white;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+}
+.lock-btn-food{
+	text-align: center;
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+.lock-btn-next{
+	margin-top: -35px;
+    margin-right: -240px;
+}
+
+@media (min-width: 567px) {
+    .lock-btn-next{
+	margin-top: -37px;
+    margin-right: -241px;
+}}
+  @media (min-width: 1200px) {
+    .lock-btn-next{
+	margin-top: -37px;
+    margin-right: -241px;
+}}
+.btn-next{
+  width: 75px;
+  height: 45px;
+  background-color: #f98169;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border: 0px, 0px, 0px, 5px;
+  color: #FFFFFF; }
+  .btn-next:hover {
+    background-color: #d36a6a;
+    color: #FFFFFF; }
+@media (min-width: 567px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+@media (min-width: 768px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+@media (min-width: 992px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+@media (min-width: 567px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+@media (min-width: 768px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+@media (min-width: 992px){
+	.btn-next{
+  width: 75px;
+  height: 45px;
+  font-size: 20px; }
+}
+.lock-img-makes{
+	margin-top: -260px;
+}
+.btn-play-white{
+  border-radius: 50%;
+  box-shadow: -1px 0px 0px 1px, 1px 0px 0px 1px;
+  width: 62px;
+  height: 60px;
+  
+  font-size: 18px;
+  border: 1px;
+  color: #FFFFFF; }
+  .btn-play:hover {
+    background-color: #D36A6A;
+    color: #FFFFFF; }
+}
+.title-makes{
+	text-align:center;
+	color: white;
+	font-size: 30px;
+}
+.dis-makes{
+	text-align:center;
+	color: white;
+	font-size: 20px;
+}
+.btn-make{
+	text-align: center;
+}
+.lock-chicken{
+	text-align: left;
+	margin-top: 113px;
+}
+.title-chicken{
+	color : blue;
+	font-size: 30px;
+	font-weight:100px;
+	line-height:30px;
+	
+	
+}
+.dis-chicken{
+	color : blue;
+	font-size: 20px;
+	font-weight:100px;
+	line-height:30px;
+}
+
+.btn-about{
+	 box-shadow: 0 8px 16px 0 #f7b9a9, 0 6px 20px 0 #f6d3c6;
+  width: 220px;
+  height: 60px;
+  background-color: #f98169;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px;
+  color: #FFFFFF; }
+  .btn-order:hover {
+    background-color: #d36a6a;
+    color: #FFFFFF; }
+.pic1-pic3{
+	margin-top: 120px;
+	text-align : right;
+}
+.pic2-pic4{
+	margin-top: 55px;
+	margin-left: -260px;
+}
+.pic3{
+	width: 150px;
+}
+.pic1{
+	width: 100px;
+	margin-left:50px;
+	margin-bottom: 5px;
+}
+.pic2{
+	width: 150px;
+}
+.pic4{
+	width: 100px;
+	margin-left:2px;
+	margin-top: 6px;
+}
+.section-clients{
+	margin-top: -50px;
+}
+.section-clients-chicken{
+	margin-top: -285px;
+}
+
+
+
+
+
+
